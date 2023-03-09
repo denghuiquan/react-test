@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "todos": [
+    {
+      "id": 1,
+      "cid": 1,
+      "title": "吃饭",
+      "isCompleted": false
+    },
+    {
+      "id": 2,
+      "cid": 3,
+      "title": "睡觉",
+      "isCompleted": false
+    },
+    {
+      "id": 3,
+      "cid": 5,
+      "title": "打飞机",
+      "isCompleted": false
+    }
+  ]
+}
